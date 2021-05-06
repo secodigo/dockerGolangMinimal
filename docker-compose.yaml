@@ -1,0 +1,12 @@
+version: '3'
+
+services: 
+    app:
+        container_name: golang2mb
+        image: secodigo/codeeducation
+        build:
+            context: Golang2mb
+        ports: 
+            - "8080:8081"
+
+
